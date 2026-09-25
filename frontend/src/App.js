@@ -1,5 +1,8 @@
 import "@/App.css";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import { Toaster } from "@/components/ui/sonner";
+import { AuthProvider } from "@/context/AuthContext";
+import AuthCallback from "@/components/AuthCallback";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Packages from "@/components/Packages";
@@ -11,7 +14,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
-function App() {
+function Home() {
   return (
     <div className="min-h-screen bg-cream font-sans">
       <Navbar />
@@ -28,6 +31,29 @@ function App() {
       <FloatingWhatsApp />
       <Toaster position="top-center" richColors />
     </div>
+  );
+}
+
+function AppRouter() {
+  const location = useLocation();
+  // Process OAuth session_id synchronously during render (prevents race conditions)
+  if (location.hash?.includes("session_id=")) {
+    return <AuthCallback />;
+  }
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  );
+}
+
+function App() {
+  return (
+    <AuthProvider>
+      <BrowserRouter>
+        <AppRouter />
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
 

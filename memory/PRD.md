@@ -24,6 +24,11 @@ Build a complete, modern, high-converting, mobile-responsive travel agency websi
 - Why Choose Us (6 reasons), enquiry form with live price estimate (saves to MongoDB + WhatsApp send option), testimonials, contact section, footer.
 - Floating sticky WhatsApp button (exact mandated URL), mailto email everywhere, tel: links, full mobile responsiveness, data-testids throughout.
 
+## Implemented (2026-09-25, iteration 2)
+- Emergent-managed Google sign-in: navbar "Sign in" button → auth.emergentagent.com → AuthCallback exchanges session_id via POST /api/auth/session (httpx), user upserted in `users` (custom user_id UUID), 7-day session in `user_sessions`, httpOnly cookie (secure, samesite=none).
+- GET /api/auth/me (cookie-first, Bearer fallback), POST /api/auth/logout (deletes session + clears cookie). AuthContext with OAuth-callback race-condition guards; navbar shows avatar + name + logout when signed in.
+- Testing playbook saved at /app/auth_testing.md; test identities tracked in /app/memory/test_credentials.md.
+
 ## Backlog
 - P1: Admin view for enquiries (or email notification via Resend).
 - P1: Real photos of the agency's own cars/temples from the owner.
