@@ -1,0 +1,288 @@
+{
+  "project_name": "Shree Sawriya Seth Tour & Travels",
+  "app_type": "landing_page",
+  "theme_strategy": {
+    "archetype": "ARCHETYPE 1 / 5 FUSION: Sacred Royal Heritage (Deep Royal Blue, Vedic Warm Gold/Ochre, Clean Sandstone White)",
+    "description": "Blend of high-end spiritual reverence and executive hospitality travel. Deep navy/royal night palettes for trust and dignity, combined with warm sacred marigold/gold accents, crisp clean whites, and subtle tactile grain textures.",
+    "base_theme": "light_with_rich_navy_accents",
+    "background_default": "#FDFBF7",
+    "surface_white": "#FFFFFF",
+    "dark_surface": "#0B1528",
+    "primary_royal_blue": "#0F2B5C",
+    "primary_royal_light": "#1B448C",
+    "accent_sacred_gold": "#D97706",
+    "accent_gold_bright": "#F59E0B",
+    "accent_ochre_warm": "#B45309",
+    "text_dark": "#0F172A",
+    "text_muted": "#475569",
+    "border_light": "rgba(15, 43, 92, 0.08)",
+    "border_gold": "rgba(217, 119, 6, 0.25)"
+  },
+  "typography": {
+    "font_family_heading": "'Playfair Display', Georgia, serif",
+    "font_family_sans": "'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    "font_family_mono": "'JetBrains Mono', monospace",
+    "h1": "text-4xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight text-slate-900 leading-tight",
+    "h2": "text-2xl sm:text-3xl lg:text-4xl font-serif font-semibold tracking-tight text-slate-900",
+    "h3": "text-xl sm:text-2xl font-serif font-medium text-slate-800",
+    "h4": "text-lg sm:text-xl font-sans font-semibold text-slate-900",
+    "overline": "text-xs uppercase font-mono tracking-[0.2em] font-semibold text-amber-600",
+    "body": "text-base sm:text-lg font-sans text-slate-600 leading-relaxed",
+    "body_sm": "text-sm font-sans text-slate-500 leading-normal"
+  },
+  "brand_identity": {
+    "agency_name": "Shree Sawriya Seth Tour & Travels",
+    "alternate_name": "Shree Shyam Tour and Travels",
+    "owner": "Harsh Thakur",
+    "tagline": "Sacred Pilgrimages & Premium Chauffeur Journeys from Indore",
+    "address": "Scheme No 51, Near Mari Mata Square, Indore, Madhya Pradesh",
+    "phones": ["+91 62628 90096", "+91 93292 45586"],
+    "primary_whatsapp": "916262890096",
+    "email": "shreesawriyasethtoortravels@gmail.com",
+    "experience_years": "3+ Years Experience",
+    "trust_badges": [
+      { "label": "3+ Years Experience", "sub": "1,200+ Sacred Darshans", "icon": "Clock" },
+      { "label": "24/7 Road Assistance", "sub": "Indore & MP Hub", "icon": "PhoneCall" },
+      { "label": "Verified Chauffeurs", "sub": "Experienced & Courteous", "icon": "ShieldCheck" },
+      { "label": "Best Price Guarantee", "sub": "Zero Hidden Charges", "icon": "BadgePercent" }
+    ]
+  },
+  "image_urls": {
+    "hero_banner": {
+      "url": "https://images.unsplash.com/photo-1557062975-96113e46608b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjB0ZW1wbGUlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzkwMzY3NTQwfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Majestic Temple Tower Architecture Heritage",
+      "placement": "Hero section background with delicate deep royal blue gradient overlay"
+    },
+    "omkareshwar_temple": {
+      "url": "https://images.unsplash.com/photo-1650341278999-d1b5142cfe30?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxoaW5kdSUyMHRlbXBsZSUyMHJpdmVyJTIwaW5kaWF8ZW58MHx8fHwxNzkwMzY3NTMyfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Sacred Island Temple by River Narmada",
+      "placement": "Tour Package 1: Omkareshwar & Mamleshwar Jyotirlinga Darshan"
+    },
+    "ujjain_mahakal": {
+      "url": "https://images.unsplash.com/photo-1650342518618-fdeaae0ef4f0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwyfHxoaW5kdSUyMHRlbXBsZSUyMHJpdmVyJTIwaW5kaWF8ZW58MHx8fHwxNzkwMzY3NTMyfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Sacred Mahakaleshwar Jyotirlinga Ghat and Sacred Shrine",
+      "placement": "Tour Package 2: Ujjain Darshan 5 Sacred Sites"
+    },
+    "sanwariya_seth": {
+      "url": "https://images.unsplash.com/photo-1538460120076-604b93a2ce88?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjB0ZW1wbGUlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzkwMzY3NTQwfDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Grand Sanwariya Seth Mandaphiya Shrine Gopuram",
+      "placement": "Tour Package 3: Shri Sanwariya Seth Darshan Yatra Rajasthan"
+    },
+    "fleet_sedan": {
+      "url": "https://images.unsplash.com/photo-1646960700481-c7be5224a7fc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwxfHxjYXIlMjBzZWRhbiUyMHN0dWRpbyUyMHdoaXRlfGVufDB8fHx8MTc5MDM2NzUzMnww&ixlib=rb-4.1.0&q=85",
+      "alt": "White Maruti Suzuki Dzire AC Sedan Clean Studio Shot",
+      "placement": "Fleet Card: Maruti Suzuki Dzire"
+    },
+    "fleet_ertiga": {
+      "url": "https://images.unsplash.com/photo-1760713170685-b67abc3be5ad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwxfHxzdXYlMjBjYXIlMjB3aGl0ZSUyMHN0dWRpb3xlbnwwfHx8fDE3OTAzNjc1NDB8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Spacious Premium MPV Maruti Suzuki Ertiga Family Tourer",
+      "placement": "Fleet Card: Maruti Suzuki Ertiga"
+    },
+    "fleet_innova": {
+      "url": "https://images.unsplash.com/photo-1646644434370-a23a5eaa6d05?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHw0fHxzdXYlMjBjYXIlMjB3aGl0ZSUyMHN0dWRpb3xlbnwwfHx8fDE3OTAzNjc1NDB8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Executive Toyota Innova Crysta Luxury Tourer Studio View",
+      "placement": "Fleet Card: Toyota Innova Crysta"
+    },
+    "testimonials": [
+      {
+        "name": "Rajeshwar Verma",
+        "role": "Pilgrim from Ahmedabad",
+        "avatar": "https://images.unsplash.com/photo-1560885673-2cdc12600ec8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBwb3J0cmFpdCUyMHNtaWxpbmd8ZW58MHx8fHwxNzkwMzY3NTQ0fDA&ixlib=rb-4.1.0&q=85",
+        "quote": "Harsh ji arranged our early morning Bhasma Aarti transfer to Ujjain flawlessly. Clean Innova Crysta, smooth highway drive, and courteous driver who guided our parents carefully at Mahakaleshwar."
+      },
+      {
+        "name": "Dr. Ananya Trivedi",
+        "role": "Family Travel, Delhi",
+        "avatar": "https://images.unsplash.com/photo-1749700332031-cf99864959ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBwb3J0cmFpdCUyMHNtaWxpbmd8ZW58MHx8fHwxNzkwMzY3NTQ0fDA&ixlib=rb-4.1.0&q=85",
+        "quote": "Took the Omkareshwar one-day trip in Dzire. The car was spotless, driver knew the Narmada ghat timings perfectly. Unbeatable pricing and very genuine service!"
+      },
+      {
+        "name": "Suresh & Sharda Patidar",
+        "role": "Senior Citizens, Indore",
+        "avatar": "https://images.unsplash.com/photo-1580471260026-2a8acbc7c7a7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBwb3J0cmFpdCUyMHNtaWxpbmd8ZW58MHx8fHwxNzkwMzY3NTQ0fDA&ixlib=rb-4.1.0&q=85",
+        "quote": "Sanwariya Seth Darshan Yatra from Indore was comfortable beyond words. All tolls and parking were covered upfront as promised. Highly recommend Harsh Thakur's agency."
+      }
+    ]
+  },
+  "package_details": [
+    {
+      "id": "omkareshwar-darshan",
+      "title": "Omkareshwar & Mamleshwar Jyotirlinga Darshan",
+      "duration": "1 Day Complete Yatra",
+      "location": "Narmada River Banks, Mandhata Island",
+      "description": "Sacred voyage to one of the 12 revered Jyotirlingas nestled along the sacred Narmada. Includes Mamleshwar darshan, Narmada sangam boat assistance, and comfortable round trip from Indore.",
+      "pricing": {
+        "dzire": "₹3,500",
+        "ertiga": "₹4,000",
+        "innova": "₹5,000"
+      },
+      "highlights": [
+        "Doorstep pickup & drop in Indore",
+        "Darshan at Omkareshwar & Mamleshwar shrines",
+        "Ghat visit & boating time included",
+        "Chilled AC & seasoned route driver"
+      ],
+      "popular": false
+    },
+    {
+      "id": "ujjain-darshan",
+      "title": "Ujjain Mahakal 5 Sacred Sites Darshan",
+      "duration": "1 Day Holy Tour",
+      "location": "Ujjain Avantika Dham",
+      "description": "Comprehensive spiritual darshan of Avantika Nagari covering 5 sacred sanctums: Mahakaleshwar Jyotirlinga, Harsiddhi Mata Shaktipeeth, Kal Bhairav, Maharishi Sandipani Ashram, and Mangalnath Temple.",
+      "pricing": {
+        "dzire": "₹3,000",
+        "ertiga": "₹3,500",
+        "innova": "₹4,500"
+      },
+      "highlights": [
+        "All 5 Sacred Temples fully covered",
+        "Flexible pickup timing for Bhasma Aarti / Sawari",
+        "Local Indore-Ujjain super expressway route",
+        "Zero hidden waiting or fuel costs"
+      ],
+      "popular": true
+    },
+    {
+      "id": "sanwariya-seth-yatra",
+      "title": "Shri Sanwariya Seth Darshan Yatra",
+      "duration": "Full Day / Overnight Express",
+      "location": "Mandaphiya, Chittorgarh, Rajasthan",
+      "description": "Divine pilgrimage to the famous miracle-shrine of Lord Krishna (Sanwariya Seth) at Mandphiya. Long-distance comfort with toll taxes, state permits, and parking completely covered in Dzire.",
+      "pricing": {
+        "dzire": "₹8,500 (All Inclusive)",
+        "ertiga": "₹9,500",
+        "innova": "₹11,500"
+      },
+      "highlights": [
+        "Highway Toll & Interstate Parking Included",
+        "Dedicated experienced highway chauffeur",
+        "Mandaphiya Krishna Darshan & Aarti coordination",
+        "Sanitized luxury sedan comfort"
+      ],
+      "popular": false
+    }
+  ],
+  "fleet_details": [
+    {
+      "id": "maruti-dzire",
+      "name": "Maruti Suzuki Dzire",
+      "category": "Executive Compact Sedan",
+      "capacity": "4 Passengers + 1 Chauffeur",
+      "luggage": "2 Large + 1 Small Bags",
+      "features": ["Chilled Dual AC", "Music System / AUX", "Pushback Comfortable Seats", "Best for Couples & Small Families"],
+      "image_key": "fleet_sedan"
+    },
+    {
+      "id": "maruti-ertiga",
+      "name": "Maruti Suzuki Ertiga",
+      "category": "Comfort 7-Seater MPV",
+      "capacity": "6-7 Passengers + 1 Chauffeur",
+      "luggage": "3-4 Bags (Rear Foldable)",
+      "features": ["Roof-Mounted Rear AC Vents", "Spacious Legroom", "Smooth Highway Suspension", "Ideal for Joint Families & Group Yatra"],
+      "image_key": "fleet_ertiga"
+    },
+    {
+      "id": "innova-crysta",
+      "name": "Toyota Innova Crysta",
+      "category": "Premium Luxury MPV",
+      "capacity": "6-7 Passengers + 1 Chauffeur",
+      "luggage": "4-5 Large Suitcases",
+      "features": ["Captain Seats Luxury Comfort", "Ultra-Silent Cabin", "Superior Highway Safety & Cruise", "VIP & Senior Citizen Preferred"],
+      "image_key": "fleet_innova"
+    }
+  ],
+  "key_sections": [
+    {
+      "section_id": "navbar",
+      "name": "Floating Crystal Navigation",
+      "elements": ["Logo with golden wheel icon", "Agency Title + Call status indicator", "Nav links (Packages, Fleet, Why Us, Reviews, Contact)", "WhatsApp Quick Call CTA"]
+    },
+    {
+      "section_id": "hero",
+      "name": "Spiritual Heritage Hero with Trust Bar",
+      "elements": ["Royal badge 'Indore's Trusted Pilgrimage Chauffeur'", "H1 with Playfair Display", "Dual CTA: 'Explore Packages' and 'Book on WhatsApp'", "Trust badges horizontal grid (3+ Yrs, 24/7 Support, Verified Drivers, Best Price)"]
+    },
+    {
+      "section_id": "packages",
+      "name": "Sacred Tour Packages & Tiered Fleet Pricing",
+      "elements": ["Package Cards with car dropdown/toggle for Dzire, Ertiga, Innova pricing", "Included perks badge", "Direct 'Book Package on WhatsApp' with pre-filled message"]
+    },
+    {
+      "section_id": "fleet",
+      "name": "Clean Studio Fleet Showcase",
+      "elements": ["Studio car views with no poster distractions", "Spec metrics (Seating, AC, Luggage, Best Suited For)", "Instant Reserve button"]
+    },
+    {
+      "section_id": "why-us",
+      "name": "Why Choose Shree Sawriya Seth",
+      "elements": ["Bento grid highlighting: Local Indore expertise, On-time arrival guarantee, Transparent fixed pricing, Courteous pilgrimage drivers, 24/7 dispatch"]
+    },
+    {
+      "section_id": "enquiry-form",
+      "name": "Interactive Booking Enquiry Form & WhatsApp Generator",
+      "elements": ["Select Destination, Pickup Date, Car Type, Passenger Count, Name & Phone", "Real-time estimated quotation preview", "One-click 'Send Enquiry on WhatsApp' + 'Submit Request'"]
+    },
+    {
+      "section_id": "testimonials",
+      "name": "Pilgrim Devotee Reviews",
+      "elements": ["5-star ratings, realistic Indian pilgrim avatars, authentic review quotes with trip details"]
+    },
+    {
+      "section_id": "contact-location",
+      "name": "Contact & Indore Base Scheme No 51 Location",
+      "elements": ["Mari Mata Square landmark details, 2 direct phone hotlines, owner Harsh Thakur card, business hours"]
+    },
+    {
+      "section_id": "footer",
+      "name": "Executive Deep Navy Footer",
+      "elements": ["Agency & alternative name 'Shree Shyam Tour and Travels'", "Quick route links", "Emergency 24x7 numbers", "Copyright and MP tourism travel note"]
+    },
+    {
+      "section_id": "floating-whatsapp",
+      "name": "Sticky Pulsing WhatsApp Widget",
+      "elements": ["Floating bottom-right button wa.me/916262890096 with badge 'Instant Reply (5 min)'"]
+    }
+  ],
+  "accessibility_and_testing": {
+    "data_testids": [
+      "header-brand-logo",
+      "header-phone-link",
+      "header-whatsapp-button",
+      "hero-explore-packages-button",
+      "hero-book-whatsapp-button",
+      "trust-badge-years-experience",
+      "trust-badge-24-7-support",
+      "trust-badge-verified-drivers",
+      "trust-badge-best-price",
+      "package-card-omkareshwar",
+      "package-card-ujjain",
+      "package-card-sanwariya-seth",
+      "package-whatsapp-btn-omkareshwar",
+      "package-whatsapp-btn-ujjain",
+      "package-whatsapp-btn-sanwariya-seth",
+      "fleet-card-dzire",
+      "fleet-card-ertiga",
+      "fleet-card-innova",
+      "enquiry-form-destination-select",
+      "enquiry-form-car-select",
+      "enquiry-form-date-input",
+      "enquiry-form-name-input",
+      "enquiry-form-phone-input",
+      "enquiry-form-submit-button",
+      "enquiry-form-whatsapp-button",
+      "floating-whatsapp-trigger"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Build the complete responsive single-page landing page inside /app/frontend/src/App.js with full functionality.",
+    "Import Lucide icons (Phone, MessageCircle, MapPin, ShieldCheck, Clock, Award, Star, Users, Car, CheckCircle2, ChevronRight, Sparkles, Navigation, Calendar, Send).",
+    "Use Playfair Display (load via Google Fonts in index.html or CSS) for headings and clean sans-serif for body to match high-end spiritual travel.",
+    "Incorporate the pre-selected Unsplash image URLs for temples, clean studio cars, and testimonials. No placeholders.",
+    "Ensure both phone numbers (+91 6262890096 and +91 9329245586) and owner name Harsh Thakur are prominently displayed.",
+    "Include both brand names: 'Shree Sawriya Seth Tour & Travels' (primary) and 'Formerly / Also known as Shree Shyam Tour and Travels' for consistency with posters.",
+    "Implement the live interactive quote estimator in the enquiry form where selecting package + car updates the estimated price badge live before sending via WhatsApp.",
+    "Include the sticky bottom-right floating WhatsApp button with ping animation and direct wa.me link.",
+    "Ensure all data-testid attributes are precisely bound on buttons, inputs, cards, and links."
+  ]
+}
